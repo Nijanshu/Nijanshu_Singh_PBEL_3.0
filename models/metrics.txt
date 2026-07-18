@@ -1,0 +1,33 @@
+Best model: Logistic Regression (accuracy=0.9507)
+
+=== Logistic Regression ===
+Accuracy: 0.9507
+Classification report:
+              precision    recall  f1-score   support
+
+        REAL       0.96      0.94      0.95      2077
+        FAKE       0.94      0.96      0.95      2083
+
+    accuracy                           0.95      4160
+   macro avg       0.95      0.95      0.95      4160
+weighted avg       0.95      0.95      0.95      4160
+
+Confusion matrix (rows=actual, cols=predicted, order=[REAL, FAKE]):
+[[1958  119]
+ [  86 1997]]
+
+=== Passive Aggressive (SGD) ===
+Accuracy: 0.9437
+Classification report:
+              precision    recall  f1-score   support
+
+        REAL       0.94      0.95      0.94      2077
+        FAKE       0.95      0.94      0.94      2083
+
+    accuracy                           0.94      4160
+   macro avg       0.94      0.94      0.94      4160
+weighted avg       0.94      0.94      0.94      4160
+
+Confusion matrix (rows=actual, cols=predicted, order=[REAL, FAKE]):
+[[1976  101]
+ [ 133 1950]]
